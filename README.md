@@ -11,7 +11,7 @@ This Gideros Studio project is a 2D platformer:
 - jump, shoot, dash, shield
 - almost all cc0 assets except for the human characters (mixamo)
 
-It is considered complete but there are some stutterings I need to improve!
+It is considered "complete" but there are some stutterings I need to fix, I haven't cleaned the code either :-(
 
 The story: "Daddy goes to school to pick up little darling"
 
