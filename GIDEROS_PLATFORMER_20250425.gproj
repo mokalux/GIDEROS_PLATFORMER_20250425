@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="540" logicalHeight="960" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="1" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="5" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="xxx" qtexp_domain="xxx" osx_bundle="com.yourdomain" osx_signingId="" osx_installerId="" osx_category="2" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="1" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="" tv_icon="" disableSplash="1" backgroundColor="#55aaff" splash_h_image="" splash_v_image="" app_name="game" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Bump" enabled="1"/>
+            <plugin name="Easing" enabled="0"/>
+            <plugin name="HarfBuzz" enabled="0"/>
+            <plugin name="JSON" enabled="1"/>
+            <plugin name="LuaFileSystem" enabled="0"/>
+            <plugin name="Media plugin" enabled="0"/>
+            <plugin name="Require" enabled="1">
+                <property name="reqAccel" value="0"/>
+                <property name="reqAlphaCanvas" value="0"/>
+                <property name="reqCanOpenUrl" value=""/>
+                <property name="reqCanRespondUrl" value=""/>
+                <property name="reqCompass" value="0"/>
+                <property name="reqDisable32bits" value="0"/>
+                <property name="reqDisable64bits" value="0"/>
+                <property name="reqDisableArm" value="0"/>
+                <property name="reqDisableX86" value="0"/>
+                <property name="reqExpRegCompliance" value="0"/>
+                <property name="reqGps" value="0"/>
+                <property name="reqGpsBackground" value="0"/>
+                <property name="reqGpsReason" value=""/>
+                <property name="reqGyro" value="0"/>
+                <property name="reqMaxAspect" value="1"/>
+                <property name="reqMinSdk" value=""/>
+                <property name="reqNoGps" value="0"/>
+                <property name="reqNoInternet" value="0"/>
+                <property name="reqNoMP3" value="0"/>
+                <property name="reqNoVibrator" value="0"/>
+                <property name="reqNoXMP" value="0"/>
+                <property name="reqPhoneOnly" value="0"/>
+                <property name="reqPreventBackup" value="0"/>
+                <property name="reqScreenShape" value="1"/>
+                <property name="reqServerMode" value="0"/>
+                <property name="reqTVCompat" value="0"/>
+                <property name="reqTVExtCompat" value="0"/>
+                <property name="reqTouch" value="0"/>
+                <property name="reqTrackingReason" value=""/>
+                <property name="reqWriteExternalStorage" value="0"/>
+            </plugin>
+            <plugin name="SceneManager" enabled="0"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value=""/>
+                <property name="androidSdk" value=""/>
+                <property name="androidTarget" value="33"/>
+                <property name="buildAab" value="0"/>
+                <property name="buildApk" value="1"/>
+                <property name="deployApk" value="0"/>
+                <property name="forOculus" value="0"/>
+                <property name="javaPath" value=""/>
+                <property name="keyAlias" value=""/>
+                <property name="keyStore" value=""/>
+                <property name="oculusHT" value="0"/>
+                <property name="oculusHTR" value="0"/>
+                <property name="oculusPT" value="0"/>
+                <property name="oculusPTR" value="0"/>
+                <property name="packageName" value="com.makeprog.scifi"/>
+                <property name="timestampApk" value="0"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/init.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="tiled">
+        <file name="assets/tiled/_tiled_levels.lua"/>
+        <file name="assets/tiled/tiled_ellipse.lua"/>
+        <file name="assets/tiled/tiled_point.lua"/>
+        <file name="assets/tiled/tiled_polygon.lua"/>
+        <file name="assets/tiled/tiled_polyline.lua"/>
+        <file name="assets/tiled/tiled_rectangle.lua"/>
+        <file name="assets/tiled/tiled_text.lua"/>
+        <folder name="lvl002"/>
+        <folder name="lvl001">
+            <file name="assets/tiled/lvl001/level.lua" excludeFromExecution="1"/>
+            <file name="assets/tiled/lvl001/level.tmx"/>
+            <file name="assets/tiled/lvl001/levelA1.tmx"/>
+            <file name="assets/tiled/lvl001/levelA2.tmx"/>
+            <file name="assets/tiled/lvl001/levelA3.tmx"/>
+            <file name="assets/tiled/lvl001/levelB.lua" excludeFromExecution="1"/>
+            <file name="assets/tiled/lvl001/levelB.tmx"/>
+            <file name="assets/tiled/lvl001/levelB2.tmx"/>
+            <file name="assets/tiled/lvl001/levelB3.tmx"/>
+            <folder name="gfx">
+                <file name="assets/tiled/lvl001/gfx/levelA01.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA10.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA11.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA12.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA13.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA14.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA15.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA16.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA17.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA18.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA19.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA_fg01.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA_fg02.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA_fg03.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelA_fg04.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_01.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_02.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_03.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_04.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_05.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_06.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_fg_01.png"/>
+                <file name="assets/tiled/lvl001/gfx/levelAb_fg_02.png"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/levelX.lua"/>
+        <file name="assets/scenes/menu.lua"/>
+        <file name="assets/scenes/options.lua"/>
+        <file name="assets/scenes/transitions.lua"/>
+        <file name="assets/scenes/win.lua"/>
+    </folder>
+    <folder name="luashader">
+        <file name="assets/luashader/effects.lua" excludeFromExecution="1"/>
+        <file name="assets/luashader/effects2.lua"/>
+        <file name="assets/luashader/luac_codegen.lua"/>
+        <file name="assets/luashader/luac_loader.lua"/>
+        <file name="assets/luashader/luashader.lua"/>
+        <file name="assets/luashader/luau_codegen.lua"/>
+        <file name="assets/luashader/stdluashaders.lua"/>
+    </folder>
+    <folder name="gfx">
+        <file name="assets/gfx/logo.png"/>
+        <file name="assets/gfx/transition.png"/>
+        <folder name="textures">
+            <file name="assets/gfx/textures/1K-brick_wall_17_baseColor.jpg_0001.png"/>
+            <file name="assets/gfx/textures/1K-decorative_wall_6_basecolor.png_0002.png"/>
+            <file name="assets/gfx/textures/1K-metal_grid.jpg-diffuse.jpg_0001.png"/>
+            <file name="assets/gfx/textures/Concrete026_2K_Color.jpg_0001.png"/>
+            <file name="assets/gfx/textures/Ground_Wet_Pebbles_001_basecolor.jpg_0002.png"/>
+            <file name="assets/gfx/textures/Marble006_1K_Color.jpg_0003.png"/>
+            <file name="assets/gfx/textures/MetalPlates008_1K_Color.jpg_0004.png"/>
+            <file name="assets/gfx/textures/MetalPlates008_1K_Color.jpg_0004g.png"/>
+            <file name="assets/gfx/textures/Rock035_2K_Color.jpg_0005.png"/>
+            <file name="assets/gfx/textures/Wall_Stone_020_basecolor.jpg_0006.png"/>
+            <file name="assets/gfx/textures/roadCurve_0002.png"/>
+            <file name="assets/gfx/textures/wdipagu_2K_Albedo.jpg_0007.png"/>
+        </folder>
+        <folder name="player1">
+            <file name="assets/gfx/player1/Ely_By_K.Atienza_0002.png"/>
+        </folder>
+        <folder name="npcs">
+            <file name="assets/gfx/npcs/Amy_0001.png"/>
+        </folder>
+        <folder name="nmes">
+            <file name="assets/gfx/nmes/Exo_Gray01_0050.png"/>
+            <file name="assets/gfx/nmes/George2_0001.png"/>
+        </folder>
+        <folder name="levels">
+            <folder name="lvl3"/>
+            <folder name="lvl2"/>
+            <folder name="lvl1"/>
+        </folder>
+        <folder name="fxs">
+            <file name="assets/gfx/fxs/1.png"/>
+            <file name="assets/gfx/fxs/2.png"/>
+            <file name="assets/gfx/fxs/Husky_0001.png"/>
+            <file name="assets/gfx/fxs/shadow.png"/>
+        </folder>
+        <folder name="collectibles">
+            <file name="assets/gfx/collectibles/Coin_A_0_0001.png"/>
+            <file name="assets/gfx/collectibles/Heart_2_0001.png"/>
+            <file name="assets/gfx/collectibles/Key_3_0001.png"/>
+        </folder>
+        <folder name="ammos">
+            <file name="assets/gfx/ammos/bullet1_0001.png"/>
+            <file name="assets/gfx/ammos/bullet1_0010.png"/>
+        </folder>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/Cabin-Regular-TTF.ttf"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/GCam.lua"/>
+        <file name="assets/classes/aslider.lua"/>
+        <file name="assets/classes/buttonMonster.lua"/>
+        <file name="assets/classes/save_prefs.lua"/>
+        <file name="assets/classes/tiny-ecs.lua" excludeFromExecution="1"/>
+        <file name="assets/classes/typewriter.lua"/>
+    </folder>
+    <folder name="audio">
+        <folder name="ui">
+            <file name="assets/audio/ui/sfx_sounds_button1.wav"/>
+        </folder>
+        <folder name="sfx">
+            <file name="assets/audio/sfx/sfx_coin_double1.wav"/>
+            <file name="assets/audio/sfx/sfx_deathscream_human14.wav"/>
+            <file name="assets/audio/sfx/sfx_wpn_laser4.wav"/>
+            <folder name="footstep">
+                <file name="assets/audio/sfx/footstep/Forest02.wav"/>
+                <file name="assets/audio/sfx/footstep/Grass02.wav"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="_S">
+        <file name="assets/_S/sAI.lua"/>
+        <file name="assets/_S/sAI_Npc.lua"/>
+        <file name="assets/_S/sAnimation.lua"/>
+        <file name="assets/_S/sBreakables.lua"/>
+        <file name="assets/_S/sCollectibles.lua"/>
+        <file name="assets/_S/sCollision.lua"/>
+        <file name="assets/_S/sDebugCollision.lua"/>
+        <file name="assets/_S/sDebugPosition.lua"/>
+        <file name="assets/_S/sDebugShield.lua"/>
+        <file name="assets/_S/sDoor.lua"/>
+        <file name="assets/_S/sDoorSensor.lua"/>
+        <file name="assets/_S/sDrawable.lua"/>
+        <file name="assets/_S/sHideable.lua"/>
+        <file name="assets/_S/sMvpf.lua"/>
+        <file name="assets/_S/sNmes.lua"/>
+        <file name="assets/_S/sOscillation.lua"/>
+        <file name="assets/_S/sPlayer1.lua"/>
+        <file name="assets/_S/sPlayer1Control.lua"/>
+        <file name="assets/_S/sProjectiles.lua"/>
+    </folder>
+    <folder name="_E">
+        <file name="assets/_E/eBreakables.lua"/>
+        <file name="assets/_E/eCollectibles.lua"/>
+        <file name="assets/_E/eDoor.lua"/>
+        <file name="assets/_E/eDoorSensor.lua"/>
+        <file name="assets/_E/eHideable.lua"/>
+        <file name="assets/_E/eMvpf.lua"/>
+        <file name="assets/_E/eNme1.lua"/>
+        <file name="assets/_E/eNpc1.lua"/>
+        <file name="assets/_E/ePlayer1.lua"/>
+        <file name="assets/_E/eProjectiles.lua"/>
+    </folder>
+    <folder name="_C">
+        <file name="assets/_C/cAnimation.lua"/>
+        <file name="assets/_C/cBody.lua"/>
+        <file name="assets/_C/cCollisionBox.lua"/>
+        <file name="assets/_C/cDistance.lua"/>
+        <file name="assets/_C/cOscillation.lua"/>
+    </folder>
+</project>

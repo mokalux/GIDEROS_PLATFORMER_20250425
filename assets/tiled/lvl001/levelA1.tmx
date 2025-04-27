@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="left-down" width="256" height="256" tilewidth="32" tileheight="32" infinite="0" nextlayerid="63" nextobjectid="1795">
+ <editorsettings>
+  <export target="level.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="imgs" tilewidth="144" tileheight="157" tilecount="22" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_DarkMetal2_Straight_0001.png" width="144" height="72"/>
+  </tile>
+  <tile id="1">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_Metal2_Straight_0002.png" width="144" height="72"/>
+  </tile>
+  <tile id="2">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_MetalPlates_Straight_0003.png" width="128" height="32"/>
+  </tile>
+  <tile id="3">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_Simple1_Straight_0004.png" width="128" height="32"/>
+  </tile>
+  <tile id="4">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_Simple2_Straight_0005.png" width="128" height="32"/>
+  </tile>
+  <tile id="5">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_Triangles_Straight_0006.png" width="128" height="32"/>
+  </tile>
+  <tile id="6">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/ShortWall_WhitePlate2_Straight_0007.png" width="128" height="64"/>
+  </tile>
+  <tile id="7">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopAstra_Straight_0008.png" width="128" height="64"/>
+  </tile>
+  <tile id="8">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopCables_Straight_0009.png" width="128" height="64"/>
+  </tile>
+  <tile id="9">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopCables_Straight_Hanging_0010.png" width="128" height="157"/>
+  </tile>
+  <tile id="10">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopPlastic_Straight_0011.png" width="126" height="64"/>
+  </tile>
+  <tile id="11">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopSimple_Straight_0012.png" width="126" height="63"/>
+  </tile>
+  <tile id="12">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/TopWindow_Straight_0013.png" width="126" height="64"/>
+  </tile>
+  <tile id="13">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_0014.png" width="84" height="63"/>
+  </tile>
+  <tile id="14">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_Broken_0015.png" width="84" height="63"/>
+  </tile>
+  <tile id="15">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_Divided_0016.png" width="84" height="63"/>
+  </tile>
+  <tile id="16">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_Flat_0017.png" width="84" height="63"/>
+  </tile>
+  <tile id="17">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_Flat_Window_0018.png" width="84" height="63"/>
+  </tile>
+  <tile id="18">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallAstra_Straight_Window_0019.png" width="84" height="63"/>
+  </tile>
+  <tile id="19">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallBand_Straight_0020.png" width="84" height="63"/>
+  </tile>
+  <tile id="20">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallBand_Straight_Broken_0021.png" width="102" height="64"/>
+  </tile>
+  <tile id="21">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (9)/WallWindow_Straight_0022.png" width="80" height="63"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="23" name="imgs2" tilewidth="132" tileheight="94" tilecount="110" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0001.png" width="30" height="49"/>
+  </tile>
+  <tile id="1">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0002.png" width="30" height="49"/>
+  </tile>
+  <tile id="2">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0003.png" width="30" height="49"/>
+  </tile>
+  <tile id="3">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0004.png" width="30" height="49"/>
+  </tile>
+  <tile id="4">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0005.png" width="30" height="49"/>
+  </tile>
+  <tile id="5">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0006.png" width="30" height="49"/>
+  </tile>
+  <tile id="6">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBarrel_0008.png" width="30" height="49"/>
+  </tile>
+  <tile id="7">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0009.png" width="98" height="17"/>
+  </tile>
+  <tile id="8">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0010.png" width="78" height="17"/>
+  </tile>
+  <tile id="9">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0011.png" width="14" height="17"/>
+  </tile>
+  <tile id="10">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0012.png" width="78" height="17"/>
+  </tile>
+  <tile id="11">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0013.png" width="98" height="17"/>
+  </tile>
+  <tile id="12">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0014.png" width="78" height="17"/>
+  </tile>
+  <tile id="13">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiBench_0016.png" width="78" height="17"/>
+  </tile>
+  <tile id="14">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0017.png" width="24" height="40"/>
+  </tile>
+  <tile id="15">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0018.png" width="28" height="40"/>
+  </tile>
+  <tile id="16">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0019.png" width="26" height="40"/>
+  </tile>
+  <tile id="17">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0020.png" width="28" height="40"/>
+  </tile>
+  <tile id="18">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0021.png" width="24" height="40"/>
+  </tile>
+  <tile id="19">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0022.png" width="28" height="40"/>
+  </tile>
+  <tile id="20">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0023.png" width="26" height="40"/>
+  </tile>
+  <tile id="21">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChair_0024.png" width="28" height="40"/>
+  </tile>
+  <tile id="22">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0025.png" width="46" height="94"/>
+  </tile>
+  <tile id="23">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0026.png" width="46" height="94"/>
+  </tile>
+  <tile id="24">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0027.png" width="46" height="94"/>
+  </tile>
+  <tile id="25">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0028.png" width="46" height="94"/>
+  </tile>
+  <tile id="26">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0029.png" width="46" height="94"/>
+  </tile>
+  <tile id="27">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0030.png" width="46" height="94"/>
+  </tile>
+  <tile id="28">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0031.png" width="46" height="94"/>
+  </tile>
+  <tile id="29">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiChamber_0032.png" width="46" height="94"/>
+  </tile>
+  <tile id="30">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0033.png" width="56" height="54"/>
+  </tile>
+  <tile id="31">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0034.png" width="73" height="54"/>
+  </tile>
+  <tile id="32">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0035.png" width="58" height="54"/>
+  </tile>
+  <tile id="33">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0036.png" width="73" height="54"/>
+  </tile>
+  <tile id="34">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0037.png" width="56" height="54"/>
+  </tile>
+  <tile id="35">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0038.png" width="73" height="54"/>
+  </tile>
+  <tile id="36">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0039.png" width="58" height="54"/>
+  </tile>
+  <tile id="37">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiContainer_0040.png" width="73" height="54"/>
+  </tile>
+  <tile id="38">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0041.png" width="18" height="39"/>
+  </tile>
+  <tile id="39">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0042.png" width="19" height="39"/>
+  </tile>
+  <tile id="40">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0043.png" width="12" height="39"/>
+  </tile>
+  <tile id="41">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0044.png" width="19" height="39"/>
+  </tile>
+  <tile id="42">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0045.png" width="18" height="39"/>
+  </tile>
+  <tile id="43">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0046.png" width="19" height="39"/>
+  </tile>
+  <tile id="44">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0047.png" width="12" height="39"/>
+  </tile>
+  <tile id="45">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiControlPanel_0048.png" width="19" height="39"/>
+  </tile>
+  <tile id="46">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0049.png" width="132" height="63"/>
+  </tile>
+  <tile id="47">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0050.png" width="120" height="63"/>
+  </tile>
+  <tile id="48">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0051.png" width="66" height="63"/>
+  </tile>
+  <tile id="49">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0052.png" width="120" height="63"/>
+  </tile>
+  <tile id="50">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0053.png" width="132" height="63"/>
+  </tile>
+  <tile id="51">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0054.png" width="120" height="63"/>
+  </tile>
+  <tile id="52">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0055.png" width="66" height="63"/>
+  </tile>
+  <tile id="53">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiGenerator_0056.png" width="120" height="63"/>
+  </tile>
+  <tile id="54">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0057.png" width="14" height="10"/>
+  </tile>
+  <tile id="55">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0058.png" width="11" height="10"/>
+  </tile>
+  <tile id="56">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0059.png" width="4" height="8"/>
+  </tile>
+  <tile id="57">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0060.png" width="13" height="10"/>
+  </tile>
+  <tile id="58">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0061.png" width="14" height="10"/>
+  </tile>
+  <tile id="59">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0062.png" width="11" height="10"/>
+  </tile>
+  <tile id="60">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0063.png" width="4" height="8"/>
+  </tile>
+  <tile id="61">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiKeypad_0064.png" width="13" height="10"/>
+  </tile>
+  <tile id="62">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0065.png" width="90" height="16"/>
+  </tile>
+  <tile id="63">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0066.png" width="66" height="16"/>
+  </tile>
+  <tile id="64">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0067.png" width="4" height="16"/>
+  </tile>
+  <tile id="65">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0068.png" width="66" height="16"/>
+  </tile>
+  <tile id="66">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0069.png" width="90" height="16"/>
+  </tile>
+  <tile id="67">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0070.png" width="66" height="16"/>
+  </tile>
+  <tile id="68">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0071.png" width="4" height="16"/>
+  </tile>
+  <tile id="69">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLamp_0072.png" width="66" height="16"/>
+  </tile>
+  <tile id="70">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0073.png" width="20" height="78"/>
+  </tile>
+  <tile id="71">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0074.png" width="30" height="78"/>
+  </tile>
+  <tile id="72">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0075.png" width="32" height="78"/>
+  </tile>
+  <tile id="73">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0076.png" width="35" height="78"/>
+  </tile>
+  <tile id="74">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0077.png" width="20" height="78"/>
+  </tile>
+  <tile id="75">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0078.png" width="30" height="78"/>
+  </tile>
+  <tile id="76">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0079.png" width="32" height="78"/>
+  </tile>
+  <tile id="77">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker_0080.png" width="35" height="78"/>
+  </tile>
+  <tile id="78">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0081.png" width="20" height="78"/>
+  </tile>
+  <tile id="79">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0082.png" width="30" height="78"/>
+  </tile>
+  <tile id="80">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0083.png" width="24" height="78"/>
+  </tile>
+  <tile id="81">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0084.png" width="30" height="78"/>
+  </tile>
+  <tile id="82">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0085.png" width="20" height="78"/>
+  </tile>
+  <tile id="83">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0086.png" width="30" height="78"/>
+  </tile>
+  <tile id="84">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0087.png" width="24" height="78"/>
+  </tile>
+  <tile id="85">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker2_0088.png" width="30" height="78"/>
+  </tile>
+  <tile id="86">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0089.png" width="20" height="78"/>
+  </tile>
+  <tile id="87">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0090.png" width="30" height="78"/>
+  </tile>
+  <tile id="88">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0091.png" width="24" height="78"/>
+  </tile>
+  <tile id="89">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0092.png" width="30" height="78"/>
+  </tile>
+  <tile id="90">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0093.png" width="20" height="78"/>
+  </tile>
+  <tile id="91">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0094.png" width="30" height="78"/>
+  </tile>
+  <tile id="92">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0095.png" width="24" height="78"/>
+  </tile>
+  <tile id="93">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiLocker3_0096.png" width="30" height="78"/>
+  </tile>
+  <tile id="94">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0097.png" width="2" height="7"/>
+  </tile>
+  <tile id="95">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0098.png" width="10" height="8"/>
+  </tile>
+  <tile id="96">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0099.png" width="14" height="8"/>
+  </tile>
+  <tile id="97">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0100.png" width="10" height="8"/>
+  </tile>
+  <tile id="98">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0101.png" width="2" height="8"/>
+  </tile>
+  <tile id="99">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0102.png" width="10" height="8"/>
+  </tile>
+  <tile id="100">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0103.png" width="14" height="8"/>
+  </tile>
+  <tile id="101">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiPistol_0104.png" width="10" height="8"/>
+  </tile>
+  <tile id="102">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0105.png" width="2" height="5"/>
+  </tile>
+  <tile id="103">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0106.png" width="80" height="6"/>
+  </tile>
+  <tile id="104">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0107.png" width="111" height="6"/>
+  </tile>
+  <tile id="105">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0108.png" width="80" height="6"/>
+  </tile>
+  <tile id="106">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0109.png" width="2" height="5"/>
+  </tile>
+  <tile id="107">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0110.png" width="80" height="6"/>
+  </tile>
+  <tile id="108">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0111.png" width="111" height="6"/>
+  </tile>
+  <tile id="109">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (8)/ScifiSword_0112.png" width="80" height="6"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="133" name="xgame" tilewidth="512" tileheight="157" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="gfx/levelx01.png" width="512" height="157"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="134" name="imgs3" tilewidth="150" tileheight="112" tilecount="34" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Ladder.002_Ladder_0_0001p.png" width="137" height="37"/>
+  </tile>
+  <tile id="4">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Bed_King_0001.png" width="100" height="31"/>
+  </tile>
+  <tile id="5">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Bookshelf_0002.png" width="58" height="112"/>
+  </tile>
+  <tile id="6">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Chair_2_0003.png" width="25" height="43"/>
+  </tile>
+  <tile id="7">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Chair_2_0004.png" width="23" height="43"/>
+  </tile>
+  <tile id="8">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Chair_2_0005.png" width="23" height="43"/>
+  </tile>
+  <tile id="9">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Chair_2_0006.png" width="25" height="43"/>
+  </tile>
+  <tile id="10">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Chair_2_0007.png" width="25" height="43"/>
+  </tile>
+  <tile id="11">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Couch_L_0008.png" width="150" height="57"/>
+  </tile>
+  <tile id="12">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Couch_Large1_0009.png" width="146" height="53"/>
+  </tile>
+  <tile id="13">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Couch_Large2_0010.png" width="138" height="53"/>
+  </tile>
+  <tile id="14">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Drawer_2_0011.png" width="75" height="33"/>
+  </tile>
+  <tile id="15">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Drawer_3_0012.png" width="82" height="40"/>
+  </tile>
+  <tile id="16">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Drawer_4_0013.png" width="60" height="52"/>
+  </tile>
+  <tile id="17">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Drawer_5_0014.png" width="60" height="34"/>
+  </tile>
+  <tile id="18">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Houseplant_1_0015.png" width="17" height="18"/>
+  </tile>
+  <tile id="19">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Houseplant_1_0016.png" width="18" height="18"/>
+  </tile>
+  <tile id="20">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Houseplant_1_0017.png" width="18" height="18"/>
+  </tile>
+  <tile id="21">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Houseplant_1_0018.png" width="19" height="18"/>
+  </tile>
+  <tile id="22">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Houseplant_1_0019.png" width="18" height="18"/>
+  </tile>
+  <tile id="23">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_1Drawers_0020.png" width="32" height="41"/>
+  </tile>
+  <tile id="24">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_2Drawers_0021.png" width="32" height="41"/>
+  </tile>
+  <tile id="25">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_3Drawers_0022.png" width="32" height="41"/>
+  </tile>
+  <tile id="26">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Cabinet1_0023.png" width="31" height="40"/>
+  </tile>
+  <tile id="27">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Cabinet2_0024.png" width="31" height="40"/>
+  </tile>
+  <tile id="28">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Fridge_0025.png" width="43" height="83"/>
+  </tile>
+  <tile id="29">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Oven_0026.png" width="32" height="41"/>
+  </tile>
+  <tile id="30">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Oven_Large_0027.png" width="36" height="40"/>
+  </tile>
+  <tile id="31">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Kitchen_Sink_0028.png" width="32" height="49"/>
+  </tile>
+  <tile id="32">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Light_Ceiling4_0029.png" width="28" height="51"/>
+  </tile>
+  <tile id="33">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Trashcanndric_0033.png" width="30" height="43"/>
+  </tile>
+  <tile id="34">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Shelf_Small1_0030.png" width="76" height="23"/>
+  </tile>
+  <tile id="35">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Shelf_Small2_0031.png" width="46" height="15"/>
+  </tile>
+  <tile id="36">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (10)/Table_RoundSmall2_0032.png" width="76" height="48"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="171" name="walls" tilewidth="88" tileheight="144" tilecount="25" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="2">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_0_0001.png" width="72" height="144"/>
+  </tile>
+  <tile id="3">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_0_0002.png" width="72" height="144"/>
+  </tile>
+  <tile id="10">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/potted_plant_02_pot_0002.png" width="22" height="27"/>
+  </tile>
+  <tile id="11">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_1_0001.png" width="72" height="144"/>
+  </tile>
+  <tile id="12">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_2_0001.png" width="72" height="144"/>
+  </tile>
+  <tile id="13">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_1_0001h.png" width="40" height="144"/>
+  </tile>
+  <tile id="14">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/Wall_02.037_Wall_02_2_0001h.png" width="32" height="144"/>
+  </tile>
+  <tile id="15">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/electric_stove_0001.png" width="22" height="38"/>
+  </tile>
+  <tile id="16">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/fancy_picture_frame_01_0003.png" width="56" height="43"/>
+  </tile>
+  <tile id="20">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0029.png" width="22" height="42"/>
+  </tile>
+  <tile id="21">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0030.png" width="27" height="42"/>
+  </tile>
+  <tile id="22">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0031.png" width="29" height="42"/>
+  </tile>
+  <tile id="23">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0032.png" width="22" height="42"/>
+  </tile>
+  <tile id="24">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0033.png" width="29" height="42"/>
+  </tile>
+  <tile id="25">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0034.png" width="27" height="42"/>
+  </tile>
+  <tile id="26">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0035.png" width="22" height="42"/>
+  </tile>
+  <tile id="27">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0036.png" width="27" height="42"/>
+  </tile>
+  <tile id="28">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0037.png" width="29" height="42"/>
+  </tile>
+  <tile id="29">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0038.png" width="22" height="42"/>
+  </tile>
+  <tile id="30">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0039.png" width="29" height="42"/>
+  </tile>
+  <tile id="31">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_chair_02_0040.png" width="27" height="42"/>
+  </tile>
+  <tile id="32">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/painted_wooden_table_0041.png" width="88" height="32"/>
+  </tile>
+  <tile id="33">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/wooden_table_02_0001.png" width="44" height="27"/>
+  </tile>
+  <tile id="34">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/fancy_picture_frame_02_0003.png" width="34" height="39"/>
+  </tile>
+  <tile id="35">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (11)/electric_stove_0002.png" width="22" height="37"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="207" name="imgs4" tilewidth="790" tileheight="822" tilecount="150" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="6">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hotel_0006.png" width="282" height="512"/>
+  </tile>
+  <tile id="8">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseBig_0007.png" width="354" height="472"/>
+  </tile>
+  <tile id="9">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseCorner_0008.png" width="238" height="414"/>
+  </tile>
+  <tile id="11">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummer_0002.png" width="128" height="66"/>
+  </tile>
+  <tile id="12">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummer_0003.png" width="167" height="66"/>
+  </tile>
+  <tile id="13">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummer_0004.png" width="166" height="66"/>
+  </tile>
+  <tile id="14">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0005.png" width="124" height="59"/>
+  </tile>
+  <tile id="15">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0006.png" width="151" height="59"/>
+  </tile>
+  <tile id="16">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0007.png" width="148" height="59"/>
+  </tile>
+  <tile id="17">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0008.png" width="140" height="59"/>
+  </tile>
+  <tile id="18">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0009.png" width="99" height="59"/>
+  </tile>
+  <tile id="19">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0010.png" width="124" height="59"/>
+  </tile>
+  <tile id="20">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0011.png" width="140" height="59"/>
+  </tile>
+  <tile id="21">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0012.png" width="151" height="59"/>
+  </tile>
+  <tile id="22">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0013.png" width="154" height="59"/>
+  </tile>
+  <tile id="23">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0014.png" width="148" height="59"/>
+  </tile>
+  <tile id="24">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0015.png" width="154" height="59"/>
+  </tile>
+  <tile id="25">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0016.png" width="151" height="59"/>
+  </tile>
+  <tile id="26">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0017.png" width="140" height="59"/>
+  </tile>
+  <tile id="27">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0018.png" width="124" height="59"/>
+  </tile>
+  <tile id="28">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hummerHX_0019.png" width="99" height="59"/>
+  </tile>
+  <tile id="31">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hydrant_0003.png" width="20" height="32"/>
+  </tile>
+  <tile id="32">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/hydrant_0004.png" width="20" height="32"/>
+  </tile>
+  <tile id="33">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/fanceWooden_0001.png" width="70" height="64"/>
+  </tile>
+  <tile id="34">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/gasStation_0001.png" width="485" height="160"/>
+  </tile>
+  <tile id="35">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/mailBox_0013.png" width="22" height="42"/>
+  </tile>
+  <tile id="36">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/mailBox_0014.png" width="18" height="42"/>
+  </tile>
+  <tile id="37">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/mailBox_0015.png" width="22" height="42"/>
+  </tile>
+  <tile id="38">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/newsPaperStand_0016.png" width="26" height="65"/>
+  </tile>
+  <tile id="39">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/phone_0017.png" width="22" height="88"/>
+  </tile>
+  <tile id="40">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/phone_0018.png" width="28" height="88"/>
+  </tile>
+  <tile id="41">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/phone_0019.png" width="27" height="88"/>
+  </tile>
+  <tile id="42">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/phone_0020.png" width="28" height="88"/>
+  </tile>
+  <tile id="43">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/roadCone_0021.png" width="16" height="28"/>
+  </tile>
+  <tile id="44">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/roadCone_0022.png" width="18" height="28"/>
+  </tile>
+  <tile id="45">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/stump_0023.png" width="45" height="25"/>
+  </tile>
+  <tile id="46">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/stump_0024.png" width="43" height="25"/>
+  </tile>
+  <tile id="47">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/stump_0025.png" width="49" height="25"/>
+  </tile>
+  <tile id="48">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/stump_0026.png" width="42" height="25"/>
+  </tile>
+  <tile id="49">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0027.png" width="150" height="318"/>
+  </tile>
+  <tile id="50">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0028.png" width="150" height="318"/>
+  </tile>
+  <tile id="51">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0029.png" width="136" height="318"/>
+  </tile>
+  <tile id="52">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0030.png" width="94" height="318"/>
+  </tile>
+  <tile id="53">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0031.png" width="94" height="318"/>
+  </tile>
+  <tile id="54">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0032.png" width="136" height="318"/>
+  </tile>
+  <tile id="55">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0033.png" width="150" height="318"/>
+  </tile>
+  <tile id="56">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0034.png" width="136" height="318"/>
+  </tile>
+  <tile id="57">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trafficLight_0035.png" width="94" height="318"/>
+  </tile>
+  <tile id="58">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashCan_0036.png" width="30" height="32"/>
+  </tile>
+  <tile id="59">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashCan_0037.png" width="28" height="32"/>
+  </tile>
+  <tile id="60">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashCan_0038.png" width="28" height="32"/>
+  </tile>
+  <tile id="61">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0039.png" width="116" height="128"/>
+  </tile>
+  <tile id="62">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0040.png" width="122" height="128"/>
+  </tile>
+  <tile id="63">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0041.png" width="106" height="128"/>
+  </tile>
+  <tile id="64">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0042.png" width="64" height="128"/>
+  </tile>
+  <tile id="65">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0043.png" width="107" height="128"/>
+  </tile>
+  <tile id="66">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0044.png" width="123" height="128"/>
+  </tile>
+  <tile id="67">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0045.png" width="116" height="128"/>
+  </tile>
+  <tile id="68">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0046.png" width="122" height="128"/>
+  </tile>
+  <tile id="69">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0047.png" width="106" height="128"/>
+  </tile>
+  <tile id="70">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0048.png" width="64" height="128"/>
+  </tile>
+  <tile id="71">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0049.png" width="107" height="128"/>
+  </tile>
+  <tile id="72">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/trashContainerOpen_0050.png" width="123" height="128"/>
+  </tile>
+  <tile id="73">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeBirch_0051.png" width="154" height="334"/>
+  </tile>
+  <tile id="74">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeBirch_0052.png" width="152" height="335"/>
+  </tile>
+  <tile id="75">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeBirch_0053.png" width="148" height="331"/>
+  </tile>
+  <tile id="76">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeBirch_0054.png" width="154" height="338"/>
+  </tile>
+  <tile id="77">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeBirch_0055.png" width="144" height="337"/>
+  </tile>
+  <tile id="78">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeDark_0056.png" width="141" height="191"/>
+  </tile>
+  <tile id="79">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeDark_0057.png" width="128" height="191"/>
+  </tile>
+  <tile id="80">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeDark_0058.png" width="133" height="190"/>
+  </tile>
+  <tile id="81">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeDark_0059.png" width="155" height="190"/>
+  </tile>
+  <tile id="82">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treePine_0060.png" width="139" height="218"/>
+  </tile>
+  <tile id="83">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treePine_0061.png" width="132" height="217"/>
+  </tile>
+  <tile id="84">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treePine_0062.png" width="145" height="220"/>
+  </tile>
+  <tile id="85">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treePine_0063.png" width="128" height="217"/>
+  </tile>
+  <tile id="86">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeWide_0064.png" width="289" height="251"/>
+  </tile>
+  <tile id="87">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeWide_0065.png" width="272" height="251"/>
+  </tile>
+  <tile id="88">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeWide_0066.png" width="244" height="251"/>
+  </tile>
+  <tile id="89">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/treeWide_0067.png" width="236" height="251"/>
+  </tile>
+  <tile id="90">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/warehouse_0068.png" width="756" height="288"/>
+  </tile>
+  <tile id="91">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/warehouse_0069.png" width="650" height="288"/>
+  </tile>
+  <tile id="92">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/warehouse_0070.png" width="756" height="288"/>
+  </tile>
+  <tile id="93">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/warehouse_0071.png" width="650" height="288"/>
+  </tile>
+  <tile id="94">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0072.png" width="88" height="159"/>
+  </tile>
+  <tile id="95">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0073.png" width="111" height="159"/>
+  </tile>
+  <tile id="96">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0074.png" width="111" height="159"/>
+  </tile>
+  <tile id="97">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0075.png" width="88" height="159"/>
+  </tile>
+  <tile id="98">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0076.png" width="111" height="159"/>
+  </tile>
+  <tile id="99">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/waterTank_0077.png" width="111" height="159"/>
+  </tile>
+  <tile id="100">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/barell_0078.png" width="32" height="46"/>
+  </tile>
+  <tile id="101">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/barell_0079.png" width="32" height="46"/>
+  </tile>
+  <tile id="102">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/barell_0080.png" width="32" height="46"/>
+  </tile>
+  <tile id="103">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0081.png" width="40" height="30"/>
+  </tile>
+  <tile id="104">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0082.png" width="46" height="30"/>
+  </tile>
+  <tile id="105">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0083.png" width="46" height="30"/>
+  </tile>
+  <tile id="106">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0084.png" width="42" height="30"/>
+  </tile>
+  <tile id="107">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0085.png" width="46" height="30"/>
+  </tile>
+  <tile id="108">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/carton_0086.png" width="46" height="30"/>
+  </tile>
+  <tile id="109">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0087.png" width="230" height="99"/>
+  </tile>
+  <tile id="110">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0088.png" width="204" height="99"/>
+  </tile>
+  <tile id="111">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0089.png" width="122" height="99"/>
+  </tile>
+  <tile id="112">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0090.png" width="8" height="99"/>
+  </tile>
+  <tile id="113">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0091.png" width="204" height="99"/>
+  </tile>
+  <tile id="114">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/concreteFance_0092.png" width="230" height="99"/>
+  </tile>
+  <tile id="115">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0093.png" width="134" height="133"/>
+  </tile>
+  <tile id="116">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0094.png" width="288" height="133"/>
+  </tile>
+  <tile id="117">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0095.png" width="368" height="133"/>
+  </tile>
+  <tile id="118">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0096.png" width="346" height="133"/>
+  </tile>
+  <tile id="119">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0097.png" width="368" height="133"/>
+  </tile>
+  <tile id="120">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0098.png" width="288" height="133"/>
+  </tile>
+  <tile id="121">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerClosed_0099.png" width="134" height="133"/>
+  </tile>
+  <tile id="122">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0100.png" width="289" height="197"/>
+  </tile>
+  <tile id="123">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0101.png" width="369" height="197"/>
+  </tile>
+  <tile id="124">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0102.png" width="354" height="197"/>
+  </tile>
+  <tile id="125">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0103.png" width="369" height="197"/>
+  </tile>
+  <tile id="126">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0104.png" width="289" height="197"/>
+  </tile>
+  <tile id="127">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0105.png" width="134" height="197"/>
+  </tile>
+  <tile id="128">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0106.png" width="289" height="197"/>
+  </tile>
+  <tile id="129">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/containerWheel_0107.png" width="369" height="197"/>
+  </tile>
+  <tile id="130">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0108.png" width="262" height="152"/>
+  </tile>
+  <tile id="131">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0109.png" width="350" height="152"/>
+  </tile>
+  <tile id="132">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0110.png" width="344" height="152"/>
+  </tile>
+  <tile id="133">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0111.png" width="350" height="152"/>
+  </tile>
+  <tile id="134">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0112.png" width="262" height="152"/>
+  </tile>
+  <tile id="135">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/garbageTruck_0113.png" width="262" height="152"/>
+  </tile>
+  <tile id="136">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0001.png" width="23" height="15"/>
+  </tile>
+  <tile id="137">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0002.png" width="19" height="14"/>
+  </tile>
+  <tile id="138">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0003.png" width="13" height="15"/>
+  </tile>
+  <tile id="139">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0004.png" width="8" height="10"/>
+  </tile>
+  <tile id="140">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0005.png" width="15" height="12"/>
+  </tile>
+  <tile id="141">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0006.png" width="20" height="13"/>
+  </tile>
+  <tile id="142">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0007.png" width="23" height="15"/>
+  </tile>
+  <tile id="143">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0008.png" width="19" height="14"/>
+  </tile>
+  <tile id="144">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0009.png" width="13" height="15"/>
+  </tile>
+  <tile id="145">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0010.png" width="8" height="10"/>
+  </tile>
+  <tile id="146">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0011.png" width="16" height="12"/>
+  </tile>
+  <tile id="147">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/grass_0012.png" width="20" height="13"/>
+  </tile>
+  <tile id="148">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseGreenRoof_0001.png" width="274" height="591"/>
+  </tile>
+  <tile id="149">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseHuge_0002.png" width="790" height="822"/>
+  </tile>
+  <tile id="150">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseRamp_0003.png" width="544" height="323"/>
+  </tile>
+  <tile id="151">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseShop_0004.png" width="226" height="355"/>
+  </tile>
+  <tile id="152">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseSmall_0005.png" width="190" height="300"/>
+  </tile>
+  <tile id="153">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseSmall_0006.png" width="256" height="300"/>
+  </tile>
+  <tile id="154">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseSmall_0007.png" width="190" height="300"/>
+  </tile>
+  <tile id="155">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseSmall_0008.png" width="256" height="300"/>
+  </tile>
+  <tile id="156">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseT_0009.png" width="572" height="508"/>
+  </tile>
+  <tile id="157">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseT_0010.png" width="352" height="508"/>
+  </tile>
+  <tile id="158">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseT_0011.png" width="572" height="508"/>
+  </tile>
+  <tile id="159">
+   <image source="../../../../../../../../../../Users/mokal/Pictures/3DPixel/Objects/pf/lvl001/New folder (12)/houseT_0012.png" width="352" height="508"/>
+  </tile>
+ </tileset>
+ <objectgroup color="#5d5d5d" id="25" name="bg_deco_shapes_sky" visible="0" tintcolor="#0046d1">
+  <object id="1093" x="2528" y="3840" width="1024" height="640"/>
+  <object id="1236" x="3552" y="3840" width="1024" height="640"/>
+  <object id="1237" x="4576" y="3840" width="1024" height="640"/>
+  <object id="1253" x="5600" y="3840" width="1024" height="640"/>
+ </objectgroup>
+ <objectgroup id="57" name="bg_deco_shapes_shadows"/>
+ <objectgroup id="55" name="bg_deco_shapes02"/>
+ <objectgroup id="56" name="bg_deco_shapes"/>
+ <objectgroup id="58" name="bg_deco_images_final" visible="0"/>
+ <objectgroup id="42" name="bg_deco_images03">
+  <object id="1600" gid="9" x="2016" y="3944" width="128" height="64"/>
+  <object id="1601" gid="6" x="2016" y="3976" width="128" height="32"/>
+  <object id="1606" gid="9" x="2144" y="3944" width="128" height="64"/>
+  <object id="1607" gid="6" x="2144" y="3976" width="128" height="32"/>
+  <object id="1611" gid="9" x="2272" y="3944" width="128" height="64"/>
+  <object id="1612" gid="6" x="2272" y="3976" width="128" height="32"/>
+  <object id="1613" gid="9" x="2272" y="3888" width="128" height="64"/>
+  <object id="1614" gid="9" x="2400" y="3944" width="128" height="64"/>
+  <object id="1615" gid="6" x="2400" y="3976" width="128" height="32"/>
+  <object id="1616" gid="9" x="2400" y="3888" width="128" height="64"/>
+  <object id="1618" gid="9" x="2144" y="3888" width="128" height="64"/>
+  <object id="1698" gid="173" x="2016" y="4124" width="72" height="144"/>
+  <object id="1699" gid="173" x="2088" y="4124" width="72" height="144"/>
+  <object id="1700" gid="173" x="2160" y="4124" width="72" height="144"/>
+  <object id="1701" gid="173" x="2232" y="4124" width="72" height="144"/>
+  <object id="1702" gid="173" x="2304" y="4124" width="72" height="144"/>
+  <object id="1703" gid="173" x="2376" y="4124" width="72" height="144"/>
+  <object id="1714" gid="182" x="2096" y="4264" width="72" height="144"/>
+  <object id="1715" gid="182" x="2168" y="4264" width="72" height="144"/>
+  <object id="1716" gid="182" x="2240" y="4264" width="72" height="144"/>
+  <object id="1717" gid="182" x="2312" y="4264" width="72" height="144"/>
+  <object id="1718" gid="182" x="2384" y="4264" width="72" height="144"/>
+  <object id="1723" gid="184" x="2456" y="4264" width="40" height="144"/>
+  <object id="1724" gid="185" x="2496" y="4264" width="32" height="144"/>
+  <object id="1755" gid="213" x="3072" y="4368" width="282" height="512"/>
+  <object id="1756" gid="215" x="3384" y="4368" width="354" height="472"/>
+  <object id="1757" gid="216" x="3760" y="4368" width="238" height="414"/>
+  <object id="1776" gid="238" x="3360" y="4368" width="20" height="32"/>
+  <object id="1790" gid="240" x="2528" y="4264" width="70" height="64"/>
+ </objectgroup>
+ <objectgroup id="41" name="bg_deco_images02">
+  <object id="1597" gid="10" x="2016" y="3981" width="128" height="157"/>
+  <object id="1626" gid="55" x="2038" y="3976" width="34.3704" height="32"/>
+  <object id="1627" gid="64" x="2112" y="3976" width="19" height="39"/>
+  <object id="1629" gid="81" x="2056" y="3944" width="14" height="10"/>
+  <object id="1630" gid="80" x="2043" y="3944" width="13" height="10"/>
+  <object id="1631" gid="55" x="2072" y="3976" width="34.3704" height="32"/>
+  <object id="1632" gid="82" x="2070" y="3944" width="11" height="10"/>
+  <object id="1633" gid="82" x="2044" y="3935" width="11" height="10"/>
+  <object id="1634" gid="80" x="2054" y="3935" width="13" height="10"/>
+  <object id="1635" gid="81" x="2066" y="3935" width="14" height="10"/>
+  <object id="1636" gid="89" x="2292" y="3904" width="90" height="16"/>
+  <object id="1637" gid="89" x="2420" y="3904" width="90" height="16"/>
+  <object id="1638" gid="89" x="2163" y="3904" width="90" height="16"/>
+  <object id="1643" gid="32" x="2488" y="3976" width="14" height="17"/>
+  <object id="1652" gid="135" x="2392" y="4013" width="80" height="37"/>
+  <object id="1653" gid="135" x="2392" y="4050" width="80" height="37"/>
+  <object id="1654" gid="135" x="2392" y="4087" width="80" height="37"/>
+  <object id="1655" gid="135" x="2392" y="4124" width="80" height="37"/>
+  <object id="1656" gid="135" x="2016" y="4157" width="80" height="37"/>
+  <object id="1657" gid="135" x="2016" y="4193" width="80" height="37"/>
+  <object id="1658" gid="135" x="2016" y="4229" width="80" height="37"/>
+  <object id="1659" gid="135" x="2016" y="4264" width="80" height="37"/>
+  <object id="1725" gid="186" x="2302" y="4264" width="22" height="38"/>
+  <object id="1726" gid="187" x="2096" y="4064" width="56" height="43"/>
+  <object id="1739" gid="205" x="2419" y="4216" width="34" height="39"/>
+  <object id="1740" gid="206" x="2280" y="4264" width="22" height="37"/>
+  <object id="1742" gid="166" x="2192" y="4195" width="28" height="51"/>
+  <object id="1743" gid="167" x="2335" y="4264" width="16" height="22.9333"/>
+  <object id="1791" gid="241" x="4112" y="4368" width="485" height="160"/>
+  <object id="1792" gid="252" x="2576" y="4264" width="45" height="25"/>
+  <object id="1793" gid="256" x="4032" y="4368" width="150" height="318"/>
+ </objectgroup>
+ <objectgroup id="29" name="bg_deco_images" locked="1">
+  <object id="1619" gid="44" x="2018" y="3976" width="33.6" height="48"/>
+  <object id="1620" gid="38" x="2058" y="3976" width="33.6" height="48"/>
+  <object id="1639" gid="70" x="2128" y="3976" width="136" height="71.4"/>
+  <object id="1666" gid="146" x="2272" y="4120" width="104" height="37.7534"/>
+ </objectgroup>
+ <objectgroup color="#ff55ff" id="32" name="bg_deco_texts" tintcolor="#00ff00"/>
+ <objectgroup color="#55ffff" id="28" name="fg_deco_shapes" tintcolor="#55ffff"/>
+ <objectgroup id="60" name="fg_deco_images03">
+  <object id="1733" gid="202" x="2224" y="4264" width="27" height="42"/>
+  <object id="1734" gid="191" x="2192" y="4264" width="22" height="42"/>
+  <object id="1735" gid="193" x="2136" y="4264" width="29" height="42"/>
+ </objectgroup>
+ <objectgroup id="59" name="fg_deco_images02">
+  <object id="1732" gid="203" x="2160" y="4264" width="88" height="32"/>
+  <object id="1744" gid="204" x="2341" y="4264" width="44" height="27"/>
+  <object id="1745" gid="181" x="2357" y="4237" width="22" height="27"/>
+  <object id="1746" gid="155" x="2372" y="4237" width="19" height="18"/>
+ </objectgroup>
+ <objectgroup id="30" name="fg_deco_images">
+  <object id="1640" gid="45" x="2288" y="3977" width="46" height="94"/>
+  <object id="1641" gid="46" x="2336" y="3977" width="46" height="94"/>
+  <object id="1644" gid="46" x="2336" y="3928" width="46" height="94"/>
+  <object id="1645" gid="45" x="2288" y="3928" width="46" height="94"/>
+  <object id="1678" gid="166" x="2224" y="4043" width="28" height="51"/>
+  <object id="1679" gid="166" x="2192" y="4043" width="28" height="51"/>
+  <object id="1680" gid="169" x="2208" y="4120" width="72" height="23.4783"/>
+  <object id="1707" gid="152" x="2208" y="4096" width="17" height="18"/>
+  <object id="1713" gid="181" x="2232" y="4096" width="22" height="27"/>
+  <object id="1736" gid="195" x="2176" y="4264" width="29" height="42"/>
+  <object id="1778" gid="239" x="3952" y="4368" width="20" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ffaaff" id="33" name="fg_deco_texts" tintcolor="#00ff00">
+  <object id="1106" x="6625" y="4104" width="32" height="16">
+   <text fontfamily="Segoe UI" pixelsize="17" wrap="1" halign="center" valign="center">EXIT</text>
+  </object>
+ </objectgroup>
+ <group id="48" name="***DECO***"/>
+ <objectgroup color="#00ff00" id="24" name="physics_players" tintcolor="#000000">
+  <object id="654" x="2296" y="4184" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="52" name="physics_ground_nmes">
+  <object id="1377" x="3904" y="4304" width="32" height="32"/>
+  <object id="1382" x="3616" y="4197" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#aa0000" id="19" name="physics_ground_nmes02" tintcolor="#aa0000">
+  <object id="1208" x="4368" y="4304" width="32" height="32"/>
+  <object id="1251" x="4680" y="4056" width="32" height="32"/>
+  <object id="1254" x="3720" y="4304" width="32" height="32"/>
+  <object id="1255" x="3512" y="4304" width="32" height="32"/>
+  <object id="1257" x="6440" y="4128" width="32" height="32"/>
+  <object id="1259" x="6152" y="4128" width="32" height="32"/>
+  <object id="1263" x="5840" y="4208" width="32" height="32"/>
+  <object id="1285" x="5248" y="4208" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="47" name="physics_ground_nmes03">
+  <object id="1287" name="lives" x="4240" y="3960" width="32" height="32"/>
+  <object id="1290" x="4432" y="4224" width="32" height="32"/>
+  <object id="1291" x="5176" y="4208" width="32" height="32"/>
+  <object id="1300" name="lives" x="5536" y="4128" width="32" height="32"/>
+  <object id="1301" x="5984" y="4128" width="32" height="32"/>
+  <object id="1311" name="kdoorCc" x="6088" y="4024" width="32" height="32"/>
+  <object id="1302" x="6528" y="4128" width="32" height="32"/>
+  <object id="1313" name="x" x="6312" y="4016" width="32" height="32"/>
+  <object id="1364" name="kdoorBb" x="3936" y="4195" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#55ff00" id="54" name="physics_ground_nmes04">
+  <object id="1378" x="4896" y="4056" width="32" height="32"/>
+  <object id="1379" x="5408" y="4208" width="32" height="32"/>
+  <object id="1380" x="5744" y="4128" width="32" height="32"/>
+  <object id="1381" x="6312" y="4128" width="32" height="32"/>
+  <object id="1385" x="5024" y="4208" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#005500" id="23" name="physics_flying_nmes" tintcolor="#005500"/>
+ <objectgroup color="#aa5500" id="39" name="physics_turret_nmes" tintcolor="#aa5500"/>
+ <objectgroup color="#0000ff" id="43" name="physics_breakables"/>
+ <group id="49" name="***PHYSICS_ACTORS***"/>
+ <objectgroup color="#aaaa00" id="21" name="physics_lives" tintcolor="#aaaa00"/>
+ <objectgroup color="#00aa00" id="20" name="physics_coins" visible="0" tintcolor="#00aa00">
+  <object id="869" x="2264" y="4080" width="16" height="16"/>
+  <object id="1047" x="2304" y="4216" width="16" height="16"/>
+  <object id="1049" x="2368" y="4216" width="16" height="16"/>
+  <object id="1153" x="2136" y="4080" width="16" height="16"/>
+  <object id="1173" x="2200" y="4080" width="16" height="16"/>
+  <object id="1375" x="3200" y="4184" width="16" height="16"/>
+  <object id="1383" x="3624" y="4096" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup color="#aaaa7f" id="38" name="physics_keys" visible="0" tintcolor="#aaaa7f">
+  <object id="1160" name="kdoorAa" x="2336" y="4216" width="16" height="16"/>
+ </objectgroup>
+ <group id="50" name="***PHYSICS_COLLECTIBLES***"/>
+ <objectgroup id="61" name="physics_grounds02">
+  <object id="1779" x="1984" y="3840" width="32" height="424"/>
+  <object id="1780" x="2096" y="4120" width="376" height="24"/>
+  <object id="1781" x="2496" y="4144" width="32" height="32"/>
+  <object id="1782" x="2504" y="3840" width="24" height="136"/>
+  <object id="1783" x="2016" y="3976" width="376" height="16"/>
+  <object id="1784" x="2256" y="3840" width="24" height="56"/>
+  <object id="1785" x="2472" y="3976" width="56" height="168"/>
+  <object id="1786" x="1984" y="3808" width="544" height="32"/>
+  <object id="1789" x="1984" y="4264" width="576" height="152"/>
+ </objectgroup>
+ <objectgroup color="#aa00ff" id="7" name="physics_grounds" tintcolor="#353535">
+  <object id="651" x="2528" y="3808" width="4128" height="32"/>
+  <object id="653" x="5920" y="4192" width="736" height="80"/>
+  <object id="722" x="2560" y="4264" width="416" height="104"/>
+  <object id="1215" x="2560" y="4376" width="4096" height="40"/>
+  <object id="1219" x="4000" y="3840" width="48" height="440"/>
+  <object id="1224" x="4416" y="4288" width="128" height="80"/>
+  <object id="1227" x="4448" y="4120" width="176" height="24"/>
+  <object id="1228" x="4576" y="3888" width="48" height="128"/>
+  <object id="1232" x="4576" y="4144" width="48" height="232"/>
+  <object id="1243" x="4896" y="4120" width="224" height="24"/>
+  <object id="1244" x="4968" y="3840" width="152" height="280"/>
+  <object id="1245" x="5088" y="4136" width="32" height="48"/>
+  <object id="1250" x="4624" y="4272" width="2032" height="104"/>
+  <object id="1252" x="6592" y="3840" width="64" height="256"/>
+  <object id="1280" x="2688" y="4192" width="48" height="72"/>
+  <object id="1281" x="2848" y="4152" width="48" height="112"/>
+  <object id="1283" x="4048" y="3840" width="920" height="48"/>
+  <object id="1289" x="4624" y="4216" width="192" height="56"/>
+  <object id="1299" x="5520" y="4192" width="272" height="80"/>
+  <object id="1310" x="6048" y="4088" width="112" height="24"/>
+  <object id="1312" x="6272" y="4080" width="112" height="24"/>
+  <object id="1370" x="4192" y="4024" width="128" height="24"/>
+  <object id="1384" x="3836" y="4259" width="164" height="16"/>
+  <object id="1390" x="6624" y="4096" width="32" height="96"/>
+  <object id="1794" name="a" x="2560" y="4368" width="2016" height="8"/>
+ </objectgroup>
+ <objectgroup id="62" name="physics_ptpfs02">
+  <object id="1787" x="2016" y="4120" width="80" height="8"/>
+  <object id="1788" x="2392" y="3976" width="80" height="8"/>
+ </objectgroup>
+ <objectgroup color="#aa007f" id="16" name="physics_ptpfs" tintcolor="#5555ff">
+  <object id="1239" x="4048" y="4136" width="136" height="16"/>
+  <object id="1240" x="4320" y="4128" width="128" height="16"/>
+  <object id="1241" name="a" x="4048" y="4216" width="320" height="16"/>
+  <object id="1242" x="4624" y="4120" width="272" height="16"/>
+  <object id="1758" name="a" x="3072" y="4249" width="282" height="16"/>
+  <object id="1761" x="3073" y="4093" width="274" height="16"/>
+  <object id="1762" name="a" x="3384" y="4261" width="354" height="16"/>
+ </objectgroup>
+ <objectgroup color="#00ff00" id="13" name="physics_steps" tintcolor="#004fee">
+  <object id="1369" x="4448" y="4124" width="4" height="4"/>
+ </objectgroup>
+ <objectgroup color="#aaff00" id="22" name="physics_walls" tintcolor="#aaff00"/>
+ <objectgroup color="#00007f" id="12" name="physics_ladders" tintcolor="#4747d5">
+  <object id="739" x="2408" y="3976" width="48" height="144"/>
+  <object id="864" x="2024" y="4120" width="56" height="144"/>
+ </objectgroup>
+ <objectgroup color="#00557f" id="17" name="physics_mvpfs" tintcolor="#00557f"/>
+ <objectgroup color="#aa557f" id="35" name="physics_ptmvpfs" tintcolor="#aa557f"/>
+ <objectgroup color="#00aa7f" id="14" name="physics_springs" tintcolor="#00aa7f"/>
+ <objectgroup color="#55aaff" id="44" name="physics_door_sensors" visible="0" tintcolor="#55aaff">
+  <object id="1116" name="kdoorZ1" x="2160" y="3840" width="208" height="136"/>
+  <object id="1118" name="kdoorAa" x="2400" y="4144" width="224" height="120"/>
+  <object id="1119" x="2368" y="3840" width="8" height="136"/>
+  <object id="1120" x="2152" y="3840" width="8" height="136"/>
+  <object id="1121" x="2392" y="4144" width="8" height="120"/>
+  <object id="1122" x="2624" y="4072" width="8" height="192"/>
+  <object id="1221" name="kdoorBb" x="3904" y="4280" width="256" height="88"/>
+  <object id="1367" name="kdoorBb" x="4048" y="4224" width="112" height="56"/>
+  <object id="1222" x="4160" y="4224" width="8" height="144"/>
+  <object id="1223" x="3896" y="4280" width="8" height="88"/>
+  <object id="1246" x="5230" y="4136" width="8" height="136"/>
+  <object id="1247" name="kdoorZ3" x="4990" y="4136" width="240" height="136"/>
+  <object id="1249" x="4982" y="4136" width="8" height="136"/>
+  <object id="1365" x="3896" y="4272" width="40" height="8"/>
+  <object id="1366" x="3928" y="4128" width="8" height="144"/>
+  <object id="1368" x="4048" y="4216" width="120" height="8"/>
+  <object id="1387" name="kdoorCc" x="6464" y="3920" width="192" height="272"/>
+  <object id="1388" x="6456" y="3920" width="8" height="272"/>
+ </objectgroup>
+ <objectgroup color="#00ffff" id="37" name="physics_doors" tintcolor="#403e2b">
+  <object id="1115" name="kdoorZ1x0y72" x="2256" y="3888" width="24" height="88"/>
+  <object id="746" name="kdoorAax0y72" x="2500" y="4168" width="24" height="96"/>
+  <object id="1220" name="kdoorBbx0y72" x="4016" y="4272" width="20" height="96"/>
+  <object id="1248" name="kdoorZ3x0y72" x="5094" y="4176" width="20" height="96"/>
+  <object id="1389" name="kdoorCcx0y72" x="6592" y="4096" width="20" height="96"/>
+ </objectgroup>
+ <objectgroup color="#aaff7f" id="40" name="physics_spikes" tintcolor="#05ff0000"/>
+ <objectgroup color="#0000ff" id="27" name="physics_voids" tintcolor="#0000ff"/>
+ <objectgroup color="#ff5500" id="31" name="physics_exits" tintcolor="#ffff00">
+  <object id="707" x="6624" y="4096" width="16" height="96"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="46" name="physics_invisible_blocks" visible="0" tintcolor="#ffaaff">
+  <object id="1266" x="4528" y="4144" width="48" height="144"/>
+  <object id="1267" x="4448" y="3888" width="48" height="232"/>
+  <object id="1268" x="5584" y="3840" width="48" height="352"/>
+  <object id="1295" x="3056" y="3840" width="48" height="528"/>
+  <object id="1296" x="4032" y="4256" width="16" height="112"/>
+  <object id="1297" x="5080" y="4144" width="48" height="128"/>
+  <object id="1298" x="6176" y="3840" width="48" height="352"/>
+ </objectgroup>
+ <group id="51" name="***PHYSICS_WORLD***"/>
+ <objectgroup color="#ffffff" id="45" name="physics_map_def" visible="0">
+  <object id="1172" x="1984" y="3808" width="4672" height="608"/>
+ </objectgroup>
+ <group id="53" name="***REFS***" visible="0">
+  <objectgroup color="#ffffff" id="26" name="physics_mvpfs_REFS" tintcolor="#ffffff"/>
+  <objectgroup color="#ffffff" id="36" name="level_design_REFS">
+   <object id="868" x="1944" y="3808" width="32" height="448"/>
+   <object id="1150" x="1984" y="3768" width="544" height="32"/>
+   <object id="1282" x="2016" y="4120" width="40" height="144"/>
+   <object id="1288" name="jump_height" x="3416" y="4152" width="32" height="112"/>
+   <object id="1309" x="6296" y="4080" width="48" height="112"/>
+   <object id="1348" x="2584" y="3808" width="128" height="560"/>
+   <object id="1360" x="2016" y="3840" width="40" height="136"/>
+   <object id="1362" x="2016" y="3976" width="40" height="144"/>
+   <object id="1661" x="2248" y="4088" width="16" height="32"/>
+   <object id="1705" x="2096" y="4024" width="56" height="16"/>
+   <object id="1722" x="2408" y="4184" width="40" height="24"/>
+   <object id="1747" x="2840" y="4000" width="128" height="368"/>
+  </objectgroup>
+ </group>
+</map>
